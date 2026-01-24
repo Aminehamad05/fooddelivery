@@ -16,12 +16,20 @@ const StoreContextProvider = (props) =>{
     useEffect(()=>{
         console.log(cartItems)
     },[cartItems])
+    const getTotalExpenses=()=>{
+        let s=0;
+        Object.entries(cartItems).map(([key,value])=>{
+            s+=food_list[key-1].price*value
+        })
+        return s
+    }
     const contextValue ={
         food_list,
         cartItems,
         setCartItem,
         addToCart,
         removeFromCart,
+        getTotalExpenses,
     }
     return (
         <StoreContext.Provider value={contextValue}>
