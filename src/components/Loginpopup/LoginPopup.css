@@ -64,3 +64,17 @@
     font-weight: 500;
     cursor: pointer;
 }
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-eye {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}

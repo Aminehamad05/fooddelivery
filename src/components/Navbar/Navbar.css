@@ -88,6 +88,40 @@
         font-size: 15px;
     }
 }
+.navbar-Profile{
+    position: relative; 
+    cursor: pointer;
+
+}
+.nav-profile-dropdown{
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+}
+.navbar-Profile:hover .nav-profile-dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  padding: 12px 25px;
+  border-radius: 4px;
+  border: 1px solid white;
+  outline: 2px solid tomato;
+  list-style: none;
+}
+.navbar-Profile li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.navbar-profile-dropdwon{
+    width: 20px;
+}
+.nav-profile-dropdown li :hover{
+    color: tomato;
+}
 @media (max-width:750px) {
     .navbar-menu{
         display: none;

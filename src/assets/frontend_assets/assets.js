@@ -59,8 +59,11 @@ import profile_icon from './profile_icon.png'
 import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
-
+import eye_open from './eye_open.png'
+import eye_close from './eye_close.jpg'
 export const assets = {
+    eye_open,
+    eye_close,
     logo,
     basket_icon,
     header_img,
