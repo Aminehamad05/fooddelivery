@@ -4,7 +4,7 @@ import { createContext, useEffect, useState } from "react";
 export const StoreContext = createContext(null);
 const StoreContextProvider = (props) =>{
     const [cartItems,setCartItem]=useState({})
-    const url="http://localhost:4000"
+    const url="https://backendofdelveryapp.onrender.com"
     const [token,setToken]=useState("")
     const addToCart= async (itemId)=>{
         if(!cartItems[itemId]){
