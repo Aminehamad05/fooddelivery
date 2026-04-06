@@ -1,0 +1,9 @@
+[submodule "admin"]
+	path = admin
+	url = https://github.com/Aminehamad05/admin.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Aminehamad05/backendofdelveryapp.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Aminehamad05/frontend.git
